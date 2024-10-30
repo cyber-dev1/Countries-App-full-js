@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exam rest Countries</title>
+    <link rel="stylesheet" href="./Styles/normalize.css">
+    <link rel="stylesheet" href="./Styles/min.css">
+</head>
+<template class="js-template">
+    <li class="js-elLi elItem  ">
+        <img class="js-image elImg"
+            src="./Assets/images/pngtree-no-image-vector-illustration-isolated-png-image_1694547.jpg" alt="regionImage">
+        <h4 class="js-name elName">Germany</h4>
+        <p class="js-population elPopulation">population : <span class="js-population-number">234.3423423</span></p>
+        <p class="js-region elRegion">Region : <span class="js-region-name">Europe</span> </p>
+        <p class="js-capital elCapital">Capital : <span class="js-capital-name">Berlin</span></p>
+    </li>
+</template>
+
+<body>
+
+    <header class="js-header site_header site_header_light">
+        <div class="container">
+            <div class="innerBox">
+                <div>
+                    <p class="innerHeaderLogo">Where in the world?</p>
+                </div>
+                <div class="box">
+                    <p class="suns">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="sun">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M12 3v2.25m6.364.386-1.591 1.591M21 12h-2.25m-.386 6.364-1.591-1.591M12 18.75V21m-4.773-4.227-1.591 1.591M5.25 12H3m4.227-4.773L5.636 5.636M15.75 12a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0Z" />
+                        </svg>
+                    </p>
+                    <p>
+                    <p class="js-change-mode headerDarkMode">Dark Mode</p>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section>
+            <div class="container">
+                <div class="heroPageOperators">
+
+
+                    <form class="js-form elForma">
+                        <input class="js-search-input searchInput " type="text" placeholder="Search for a country…">
+                        <div>
+                            <select class="js-filter-region-select elSort">
+                                <option class="js-option" selected disabled hidden>Filter by Region</option>
+                                <option value="all">All</option>
+                                <option value="antarctic">Antarctic</option>
+                                <option value="asia">Asia</option>
+                                <option value="america">America</option>
+                                <option value="africa">Africa</option>
+                                <option value="europe">Europe</option>
+                                <option value="oceania">Oceania</option>
+                            </select>
+                        </div>
+                        <div>
+                            <select class="js-sort-select sortSelect">
+                                <option value="all">All</option>
+                                <option class="js-sort-option" value="a-z">A-Z</option>
+                                <option class="js-sort-option" value="z-a">Z-A</option>
+                                <option class="js-sort-option" value="min-population">Population min</option>
+                                <option class="js-sort-option" value="max-population">Population max</option>
+                            </select>
+                        </div>
+                        <button class="searchBtn">search</button>
+                    </form>
+
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container">
+                <ul class="elList js-list">
+
+                </ul>
+
+                <div class="js-pagination pagination-buttons ">
+                    <button class="js-prev-btn prevBtn">Prev</button>
+                    <p class="js-page"></p>
+                    <button class="js-next-btn nextBtn">next</button>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+
+
+    <script src="./Javascript/main.js"></script>
+</body>
+
+</html>

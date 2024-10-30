@@ -1,0 +1,279 @@
+@font-face {
+    font-family: Nunito;
+    src: url(../Assets/Fonts/Nunito_Sans/NunitoSans-VariableFont_YTLC\,opsz\,wdth\,wght.ttf);
+}
+
+*::before,
+*::after,
+* {
+    box-sizing: border-box;
+    font-family: Nunito;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1450px;
+    margin: 0 auto;
+}
+
+.site_header {
+    padding: 10px;
+    color: #fff;
+}
+
+.innerHeaderLogo {
+    text-decoration: none;
+    font-size: 30px;
+    line-height: 35px;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+.suns {
+    width: 50px;
+    cursor: pointer;
+    margin-right: 10px;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+.box {
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.innerBox {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.headerDarkMode {
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.searchInput {
+    width: 400px;
+    height: 40px;
+    outline: 1px solid transparent;
+    border-radius: 4px;
+    background-color: #2B3844;
+    border: 1px solid transparent;
+    padding-left: 25px;
+    font-size: 15px;
+    color: #fff;
+}
+
+.heroPageOperators {
+    margin-top: 40px;
+}
+
+.elSort {
+    height: 40px;
+    width: 150px;
+    outline: 1px solid transparent;
+    border: 1px solid transparent;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: #2B3844;
+    color: #fff;
+    font-size: 16px;
+}
+
+.sortSelect {
+    height: 40px;
+    width: 150px;
+    outline: 1px solid transparent;
+    border: 1px solid transparent;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: #2B3844;
+    color: #fff;
+    font-size: 16px;
+}
+
+.searchInput::placeholder {
+    color: #fff;
+}
+
+.searchBtn {
+    width: 80px;
+    height: 40px;
+    outline: 1px solid transparent;
+    border-radius: 4px;
+    background-color: #2B3844;
+    border: 1px solid white;
+    color: #fff;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.elList {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.elItem {
+    width: 275px;
+    height: 380px;
+    cursor: pointer;
+    margin-top: 60px;
+    padding: 10px;
+    border-radius: 6px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.elForma {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.elImg {
+    text-align: center;
+    width: 100%;
+    height: 160px;
+    border: 1px solid transparent;
+    outline: 1px solid transparent;
+}
+
+.elName {
+    text-align: center;
+}
+
+.elPopulation,
+.elRegion,
+.elCapital {
+    margin-left: 20px;
+}
+
+.errText {
+    color: red;
+    letter-spacing: 1px;
+    font-size: 25px;
+    margin: 0 auto;
+    margin-top: 20px;
+    font-weight: 400;
+}
+
+.texts {
+    display: none;
+}
+
+.js-page {
+    color: #fff;
+    font-size: 17px;
+}
+
+.pagination-buttons {
+    width: 300px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nextBtn,
+.prevBtn {
+    padding: 6px 20px;
+    border: 1px solid transparent;
+    outline: 1px solid transparent;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #2B3844;
+    color: #fff;
+    letter-spacing: 1px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.nextBtns {
+    padding: 6px 20px;
+    border: 1px solid transparent;
+    outline: 1px solid transparent;
+    border-radius: 5px;
+    cursor: not-allowed;
+    background-color: #2B3844;
+    color: #fff;
+    letter-spacing: 1px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Light and dark mode classes */
+body.light {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+body.dark {
+    background-color: #202C36;
+    color: #ffffff;
+}
+
+
+.site_header_light {
+    background-color: #f9f9f9;
+    border-bottom: 1px solid transparent;
+    color: black;
+}
+
+.js-page{
+    color: rgb(37, 82, 159);
+}
+
+.site_header_dark {
+    background-color: #2B3844;
+    border: 1px solid transparent;
+    color: white;
+}
+
+.elItem-light {
+    color: #000000;
+}
+
+.elItem-dark {
+    color: #ffffff;
+}
+
+/* New elements for dark/light mode */
+.input-light {
+    background-color: #ffffff;
+    color: #000000;
+    border: 1px solid #cccccc;
+    color: black;
+}
+
+.input-light::placeholder{
+    color: black;
+}
+
+.input-dark {
+    background-color: #2B3844;
+    color: #ffffff;
+    border: 1px solid #777777;
+}
